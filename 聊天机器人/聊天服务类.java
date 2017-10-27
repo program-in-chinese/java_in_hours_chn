@@ -1,4 +1,4 @@
-package chatbot;
+package 聊天机器人;
 
 import javax.xml.ws.Endpoint;
 

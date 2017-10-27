@@ -1,8 +1,8 @@
-package chatbot;
+package 聊天机器人;
 
 import javax.jws.WebService;
 
-@WebService(endpointInterface = "chatbot.聊天接口")
+@WebService(endpointInterface = "聊天机器人.聊天接口")
 public class 聊天机器人类 implements 聊天接口 {
   private String 小秘密 = "";
   
