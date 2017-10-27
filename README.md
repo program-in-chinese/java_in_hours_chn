@@ -285,7 +285,7 @@ class 字符串方法 {
     String 搜索字符串 = "go";
     System.out.println("\"" + 字符串 + "\"的长度:" + 字符串.length());
     System.out.println(搜索字符串 + "在\"" + 字符串 + "\"的位置是:" + 字符串.indexOf(搜索字符串));
-    System.out.println("\"" + 字符串 + "\"转换为大写是:" + 字符串.toUpperCase());
+    System.out.println("\"" + 字符串 + "\"的第一个字符是:" + 字符串.charAt(0));
   }
 }
 ```
@@ -340,6 +340,7 @@ if ("辛苦".equals("不辛苦")) {
   System.out.println("不辛苦好");
 }
 ```
+你猜上面程序输出的是什么呢?
 
 扩展资料: &&, ||, switch, ?:, 字符串比较
 
